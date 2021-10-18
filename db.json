@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  [
+    {
+      "id": 1,
+      "text": "Play the game",
+      "date": "Sunday 17 October 2021 2:00pm",
+      "reminder": true,
+    },
+    {
+      "id": 2,
+      "text": "See the match",
+      "date": "Sunday 17 October 2021 3:00pm",
+      "reminder": true,
+    },
+    {
+      "id": 3,
+      "text": "Study",
+      "date": "Sunday 17 October 2021 3:00pm",
+      "reminder": false,
+    },
+  ]
 }
